@@ -1,0 +1,18 @@
+<div
+   class="d-flex justify-content-center align-items-center"
+   style="flex-direction: column;"
+>
+   {{>alert}}
+   <div class="card text-center">
+      <div class="card-header">Protected Route</div>
+      <div class="card-body">
+         <h5 class="card-title">Welcome {{name}}</h5>
+         <p class="card-text">Logged In Using Email: {{email}}</p>
+         <a href="/" class="btn lead btn-primary">Home</a>
+         <a href="/logout" class="btn lead btn-primary">Logout</a>
+      </div>
+      <div class="card-footer text-muted">
+         Thankyou For Visiting
+      </div>
+   </div>
+</div>
